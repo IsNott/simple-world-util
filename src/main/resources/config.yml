@@ -1,0 +1,24 @@
+bot:
+  privateKey:
+  publicKey:
+  testQQ:
+  testMsg: QQ机器人插件上线[此为插件运行时测试发送，忽略此条信息]
+  groupQQ:
+  url: http://localhost:7001
+  test-onload: false
+
+notice:
+  startTime: '19:00'
+  endTime: '21:00'
+  interval: 1
+  textCount: 10
+  color: '#f70229'
+  noticeMessage: '&c[系统公告]距离服务器无限制战争{MODE}仅剩{MIN}分钟，无限制时间段所有王国领地将不受保护，请保护好自己的物资，夺取更多的资源。'
+
+bug:
+  ignoreConsole: false
+  length: 15
+  limit: 3
+  limitMsg: '&6你今天已经提交很多信息咯，明天再来吧'
+  success: '&6提交成功，等待管理员验证，在3个工作日内完成'
+  failed: '&6提交失败，请移步到QQ群提交'
